@@ -43,87 +43,129 @@ PRODUCT_PACKAGES += \
 
 # Lockscreen clock fonts
 PRODUCT_PACKAGES += \
-    ClockFontACFilmstripOverlay \
+    ClockFontGoogleSansOverlay \
+    ClockFontNothingDotOverlay \
+    ClockFontAdventProOverlay \
+    ClockFontBigNoodleTiltingOverlay \
+    ClockFontCherrySwashOverlay \
+    ClockFontHeadlineOverlay \
+    ClockFontRoadRageOverlay \
+    ClockFontSnowstormOverlay \
+    ClockFontViburOverlay \
+    ClockFontAlienLeagueOverlay \
+    ClockFontBikoOverlay \
+    ClockFontGinoraSansOverlay \
+    ClockFontRivieraOverlay \
+    ClockFontUnionOverlay \
     ClockFontAccuratistOverlay \
     ClockFontAclonicaOverlay \
-    ClockFontAlmonteSnowOverlay \
-    ClockFontAlphaCloudsOverlay \
-    ClockFontAlphaFlowersOverlay \
-    ClockFontAlphaWoodOverlay \
     ClockFontAmaranteOverlay \
-    ClockFontAmpad3D2Overlay \
     ClockFontBariolOverlay \
-    ClockFontBetsyFlanaganOverlay \
-    ClockFontBigCheeseOverlay \
-    ClockFontBrandayolqOverlay \
-    ClockFontBudmoJigglerOverlay \
-    ClockFontBunnyRabbitsOverlay \
-    ClockFontCFBadNewsOverlay \
-    ClockFontCFOneTwoTreesOverlay \
     ClockFontCagliostroOverlay \
-    ClockFontCatOverlay \
     ClockFontCoconOverlay \
     ClockFontComfortaaOverlay \
     ClockFontComicSansOverlay \
-    ClockFontConcentrateOverlay \
-    ClockFontCookieRunOverlay \
     ClockFontCoolstoryOverlay \
-    ClockFontCrackmanOverlay \
-    ClockFontDiscoMidnightOverlay \
-    ClockFontEasterBunnyOverlay \
-    ClockFontEditPointsFilledOverlay \
-    ClockFontEditPointsOverlay \
-    ClockFontElriott2Overlay \
     ClockFontExotwoOverlay \
-    ClockFontFibographyOverlay \
     ClockFontFifa2018Overlay \
-    ClockFontFloorlightOverlay \
-    ClockFontGautsMotelUpperRightOverlay \
-    ClockFontGoogleSansOverlay \
     ClockFontGrandHotelOverlay \
-    ClockFontHangedOverlay \
     ClockFontHarmonySansOverlay \
-    ClockFontHotSweatOverlay \
-    ClockFontKGOnlyHopeOverlay \
-    ClockFontKaramuruhOverlay \
-    ClockFontKingthingsOverlay \
-    ClockFontLGSmartGothicOverlay \
-    ClockFontLMSCliffordOverlay \
     ClockFontLatoOverlay \
+    ClockFontLGSmartGothicOverlay \
     ClockFontLinotteOverlay \
-    ClockFontLittleBunnyOverlay \
-    ClockFontLowerAtmosphereOverlay \
-    ClockFontMessingLetternOverlay \
-    ClockFontMonbijouxClownpieceOverlay \
-    ClockFontNeonDiscoOverlay \
-    ClockFontNinjasOverlay \
     ClockFontNokiaPureOverlay \
-    ClockFontNothingDotHeadlineOverlay \
     ClockFontNunitoOverlay \
     ClockFontOneplusSansOverlay \
     ClockFontOneplusSlateOverlay \
     ClockFontOswaldOverlay \
+    ClockFontQuandoOverlay \
+    ClockFontRedressedOverlay \
+    ClockFontReemKufiOverlay \
+    ClockFontRobotoCondensedOverlay \
+    ClockFontRosemaryOverlay \
+    ClockFontRubikOverlay \
+    ClockFontSamsungOneOverlay \
+    ClockFontSonySketchOverlay \
+    ClockFontStoropiaOverlay \
+    ClockFontSurferOverlay \
+    ClockFontUbuntuOverlay \
+    ClockFontVG5000Overlay \
+    ClockFont3DIsometricBlackOverlay \
+    ClockFont3DIsometricBoldOverlay \
+    ClockFontBalticBoddenOverlay \
+    ClockFontBalticCoastOverlay \
+    ClockFontBalticDuneOverlay \
+    ClockFontBalticStormOverlay \
+    ClockFontCafe24DecoshadowOverlay \
+    ClockFontFortaOverlay \
+    ClockFontMuseoModernoOverlay \
+    ClockFontMXWasgardOverlay \
+    ClockFontNeptunCATOverlay \
+    ClockFontProdeltCoOverlay \
+    ClockFontRubikGlitchOverlay \
+    ClockFontTourneyMediumOverlay \
+    ClockFontVG5000Overlay \
+    ClockFontOdibeeSansOverlay \
+    ClockFontPermanentMarkerOverlay \
+    ClockFontArcadeInterlacedOverlay \
+    ClockFontDotComOverlay \
+    ClockFontKarmaticArcadeOverlay \
+    ClockFontLiquidCrystalOverlay \
+    ClockFontV5PRFOverlay \
+    ClockFontZeroFourOverlay \
+    ClockFontxtrusionOverlay \
+    ClockFontNeonDiscoOverlay \
+    ClockFontlovenessthreeOverlay \
+    ClockFontAlphaCloudsOverlay \
+    ClockFontAlphaFlowersOverlay \
+    ClockFontAlphaWoodOverlay \
+    ClockFontBigCheeseOverlay \
+    ClockFontBudmoJigglerOverlay \
+    ClockFontBunnyRabbitsOverlay \
+    ClockFontCFBadNewsOverlay \
+    ClockFontCFOneTwoTreesOverlay \
+    ClockFontCRACKMANOverlay \
+    ClockFontELRIOTT2Overlay \
+    ClockFontEasterBunnyOverlay \
+    ClockFontFibographyOverlay \
+    ClockFontHangedOverlay \
+    ClockFontHotSweatOverlay \
+    ClockFontKGOnlyHopeOverlay \
+    ClockFontKaramuruhOverlay \
+    ClockFontKingthingsOverlay \
+    ClockFontKlyukinOverlay \
+    ClockFontLMSCliffordOverlay \
+    ClockFontLittleBunnyOverlay \
+    ClockFontMessingLetternOverlay \
+    ClockFontneon2Overlay \
     ClockFontPinewoodOverlay \
     ClockFontPlaidEventOverlay \
     ClockFontPlantsLettersOverlay \
-    ClockFontQuandoOverlay \
     ClockFontQuickSouthOverlay \
-    ClockFontRedressedOverlay \
-    ClockFontReemKufiOverlay \
-    ClockFontRemponkOverlay \
-    ClockFontRobotoCondensedOverlay \
+    ClockFontREMPONKOverlay \
     ClockFontRomantiquesOverlay \
-    ClockFontRosemaryOverlay \
-    ClockFontRoundheadsOverlay \
-    ClockFontRubikOverlay \
-    ClockFontSamsungOneOverlay \
     ClockFontScrapItUpOverlay \
-    ClockFontSonySketchOverlay \
     ClockFontSpaceGameOverlay \
+    ClockFontTH3MACHINEOverlay \
+    ClockFontVTKSDURA3dOverlay \
+    ClockFontZnikomitNo24Overlay \
+    ClockFontACFilmstripOverlay \
+    ClockFontAmpad3D2Overlay \
+    ClockFontBetsyFlanaganOverlay \
+    ClockFontCatOverlay \
+    ClockFontConcentrateOverlay \
+    ClockFontDiscoMidnightOverlay \
+    ClockFontGautsMotelUpperRightOverlay \
+    ClockFontNINJASOverlay \
     ClockFontStandardHeaderOverlay \
-    ClockFontStoropiaOverlay \
-    ClockFontSurferOverlay \
-    ClockFontTh3machineOverlay \
-    ClockFontUbuntuOverlay \
-    ClockFontVtksdura3dOverlay \
-    ClockFontZnikomitNo24Overlay
+    ClockFontfrankfrtOverlay \
+    ClockFontmunsteriaOverlay \
+    ClockFontAlmonteSnowOverlay \
+    ClockFontBrandayolqOverlay \
+    ClockFontEditPointsOverlay \
+    ClockFontEditPointsFilledOverlay \
+    ClockFontFloorlightOverlay \
+    ClockFontFuturrOverlay \
+    ClockFontLowerAtmosphereOverlay \
+    ClockFontMonbijouxClownpieceOverlay \
+    ClockFontRoundheadsOverlay
