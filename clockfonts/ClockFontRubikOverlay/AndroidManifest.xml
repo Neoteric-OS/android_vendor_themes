@@ -24,7 +24,7 @@
         android:category="android.theme.customization.lockscreen_clock_font"
         android:priority="1" />
 
-    <application
+    <application android:allowBackup="false"
         android:hasCode="false"
         android:label="@string/font_rubik_overlay">
         <meta-data

@@ -10,7 +10,7 @@
     <overlay android:targetPackage="android"
         android:category="android.theme.customization.theme_style"
         android:priority="1"/>
-    <application
+    <application android:allowBackup="false"
         android:label="@string/android_overlay_black"
         android:hasCode="false"/>
 </manifest>

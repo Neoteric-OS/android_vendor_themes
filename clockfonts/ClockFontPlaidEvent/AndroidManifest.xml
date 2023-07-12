@@ -7,5 +7,5 @@
         android:category="android.theme.customization.lockscreen_clock_font"
         android:priority="1"/>
 
-    <application android:label="PlaidEvent" android:hasCode="false" android:icon="@mipmap/ic_launcher"/>
+    <application android:allowBackup="false" android:label="PlaidEvent" android:hasCode="false" android:icon="@mipmap/ic_launcher"/>
 </manifest>

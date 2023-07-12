@@ -23,7 +23,7 @@
         android:category="android.theme.customization.font"
         android:priority="1"/>
 
-    <application android:label="Pixel Font" android:hasCode="false">
+    <application android:allowBackup="false" android:label="Pixel Font" android:hasCode="false">
         <meta-data
             android:name="android.theme.customization.REQUIRED_SYSTEM_FONTS"
             android:value="sans-serif,sans-serif-medium, googlesans-sys" />

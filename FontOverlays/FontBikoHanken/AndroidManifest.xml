@@ -23,7 +23,7 @@
         android:category="android.theme.customization.font"
         android:priority="1"/>
 
-    <application android:label="Biko / Hanken" android:hasCode="false">
+    <application android:allowBackup="false" android:label="Biko / Hanken" android:hasCode="false">
         <meta-data
             android:name="android.theme.customization.REQUIRED_SYSTEM_FONTS"
             android:value="biko, hanken" />

@@ -23,7 +23,7 @@
         android:priority="600"
         android:targetPackage="android" />
 
-    <application
+    <application android:allowBackup="false"
         android:label="@string/font_oneplusslate_source_overlay">
         <meta-data
             android:name="android.theme.customization.REQUIRED_SYSTEM_FONTS"
