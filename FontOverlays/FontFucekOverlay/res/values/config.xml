@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_bodyFontFamily">fucek</string>
+    <string name="config_bodyFontFamilyMedium">fucek-medium</string>
+    <string name="config_headlineFontFamily">fucek</string>
+    <string name="config_headlineFontFamilyMedium">fucek</string>
+    <string name="font_fucek_source_overlay">Fucek</string>
+</resources>

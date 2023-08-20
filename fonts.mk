@@ -2,44 +2,63 @@ LOCAL_PATH := vendor/themes
 
 # Fonts
 PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,vendor/themes/fonts//prebuilt,$(TARGET_COPY_OUT_PRODUCT)/fonts)
+    $(call find-copy-subdir-files,*,vendor/themes/fonts/prebuilt,$(TARGET_COPY_OUT_PRODUCT)/fonts) \
+    vendor/themes/fonts/config/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
 
 PRODUCT_PACKAGES += \
-    FontInterOverlay \
-    FontLinotteSourceOverlay \
-    FontManropeOverlay \
-    FontOnePlusSansOverlay \
-    FontOneplusSlateSourceOverlay \
+    FontAclonicaSourceOverlay \
+    FontAdamCGinora \
+    FontAmaranteSourceOverlay \
     FontAppleMintOverlay \
+    FontBariolSourceOverlay \
+    FontBigNoodle \
+    FontBikoHanken \
+    FontCagliostroSourceOverlay \
     FontCartoonistHandOverlay \
     FontChinacatOverlay \
-    FontLatoOverlay \
-    FontRosemaryOverlay \
-    FontSanFransiscoOverlay \
-    FontSlateProOverlay \
-    FontZillaSlabOverlay \
-    FontCoreMellow \
-    FontFucek \
-    FontLemon \
-    FontSamsungSans \
-    FontSimpleDay \
-    FontUbuntu \
-    FontBariolSourceOverlay \
-    FontAclonicaSourceOverlay \
-    FontAmaranteSourceOverlay \
-    FontCagliostroSourceOverlay \
-    FontComfortaaSourceOverlay \
+    FontComfortaSourceOverlay \
     FontComicSansSourceOverlay \
     FontCoolstorySourceOverlay \
+    FontHarmonyOSSansOverlay \
+    FontHKGroteskOverlay \
+    FontInterOverlay \
+    FontKaiOverlay \
+    FontLatoOverlay \
     FontLGSmartGothicSourceOverlay \
-    FontSamsungOneSourceOverlay \
-    FontSonySketchSourceOverlay \
-    FontSurferSourceOverlay \
-    FontStoropiaOverlay \
+    FontLinotteSourceOverlay \
+    FontManropeOverlay \
+    FontMittelschrift \
     FontNothiingDotOverlay \
+    FontNothingDotHeadlineOverlay \
+    FontOnePlusSansOverlay \
+    FontOnePlusSlateSourceOverlay \
     FontOppoSansOverlay \
+    FontPissel \
     FontProductSansVHOverlay \
-    FontNothingDotHeadlineOverlay
+    FontReemKufi \
+    FontRobotoOrigOverlay \
+    FontRosemaryOverlay \
+    FontRubikOverlay \
+    FontSamOverlay \
+    FontSamsungOneSourceOverlay \
+    FontSanFransiscoOverlay \
+    FontSlateProOverlay \
+    FontSonySketchSourceOverlay \
+    FontStoropiaOverlay \
+    FontSurferSourceOverlay \
+    FontVictorOverlay \
+    FontZillaSlabOverlay \
+    FontCherrySwashOverlay \
+    FontCoconOverlay \
+    FontCoreMellowOverlay \
+    FontDisneyOverlay \
+    FontFucekOverlay \
+    FontLemonOverlay \
+    FontNetflixSansOverlay \
+    FontRobotoCondensedOverlay \
+    FontSamsungSansOverlay \
+    FontSimpleDayOverlay \
+    FontUbuntuOverlay
 
 # Lockscreen clock fonts
 PRODUCT_PACKAGES += \
