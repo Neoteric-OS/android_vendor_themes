@@ -8,5 +8,5 @@ include vendor/themes/iconpacks/iconpacks.mk
 include vendor/themes/iconshapes/iconshapes.mk
 
 PRODUCT_PACKAGES += \
-    ZephyrusThemesStub \
+    NeotericThemesStub \
     BlackTheme
