@@ -9,5 +9,4 @@ include vendor/themes/iconshapes/iconshapes.mk
 
 # UI packages
 PRODUCT_PACKAGES += \
-    BlackTheme \
-    FullscreenNavigationOverlay
+    BlackTheme
